@@ -8,7 +8,7 @@ const searchIcon = document.querySelector('.sidebar__search__icon')
 const busca = document.querySelector('.sidebar__search__icon__span')
 const spans = document.querySelectorAll('.icons__description')
 const foto = document.querySelector('.footer__img')
-const nome = document.querySelector('.sidebar__footer__name')
+const nome = document.querySelector('.sidebar__footer')
 iconMenu[0].onclick = function(){
     iconMenu[0].classList.toggle('display')
     logo.classList.toggle('display')

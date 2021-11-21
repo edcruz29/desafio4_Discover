@@ -21,7 +21,7 @@
   background-color: var(--green);
   height: 100vh;
   transition: 0.3s;
-  visibility:visible;
+  visibility: visible;
 }
 .sidebar__header {
   display: flex;
@@ -37,7 +37,7 @@
   margin-left: 14px;
   position: relative;
   border: none;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .sidebar__search__icon,
 .sidebar__search__icon__span {
@@ -47,7 +47,7 @@
 }
 .sidebar__search__icon__span {
   margin-left: 39px;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 .sidebar__icons {
   display: flex;
@@ -129,7 +129,7 @@
   background-color: var(--green);
   height: 100vh;
   visibility: hidden;
-  
+  overflow: hidden;
 }
 .sidebar__search--mobile {
   background-color: var(--light-grey);
@@ -148,16 +148,18 @@
 }
 .display {
   display: none;
+  transition: 0.5s;
 }
 .min {
   max-width: 78px;
   width: 100%;
   visibility: hidden;
-  transition: 1s;
+  transition: 0.5s;
 }
 .max {
   visibility: visible;
   position: absolute;
   z-index: 999;
   transition: 0.5s;
+  width: 100%;
 }
