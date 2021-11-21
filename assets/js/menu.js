@@ -1,0 +1,57 @@
+const iconMenu = document.querySelectorAll('.sidebar__menu')
+const aside = document.querySelector('.sidebar')
+const header = document.querySelector('.sidebar__header')
+const asideMobile = document.querySelector('.sidebar-mobile')
+const logo = document.querySelector('.sidebar__logo')
+const search = document.querySelector('.sidebar__search')
+const searchIcon = document.querySelector('.sidebar__search__icon')
+const busca = document.querySelector('.sidebar__search__icon__span')
+const spans = document.querySelectorAll('.icons__description')
+const foto = document.querySelector('.footer__img')
+const nome = document.querySelector('.sidebar__footer__name')
+iconMenu[0].onclick = function(){
+    iconMenu[0].classList.toggle('display')
+    logo.classList.toggle('display')
+    aside.classList.toggle('min')
+    asideMobile.classList.toggle('max')
+    busca.classList.toggle('display');
+    spans[0].classList.toggle('display')
+    spans[1].classList.toggle('display')
+    spans[2].classList.toggle('display')
+    spans[3].classList.toggle('display')
+    spans[4].classList.toggle('display')
+    foto.classList.toggle('display')
+    nome.classList.toggle('display')
+    searchIcon.classList.toggle('display')
+    search.classList.toggle('display')
+}
+iconMenu[1].onclick = function(){
+    iconMenu[0].classList.toggle('display')
+    logo.classList.toggle('display')
+    aside.classList.toggle('min')
+    asideMobile.classList.toggle('max')
+    busca.classList.toggle('display');
+    spans[0].classList.toggle('display')
+    spans[1].classList.toggle('display')
+    spans[2].classList.toggle('display')
+    spans[3].classList.toggle('display')
+    spans[4].classList.toggle('display')
+    foto.classList.toggle('display')
+    nome.classList.toggle('display')
+    searchIcon.classList.toggle('display')
+    search.classList.toggle('display')
+
+}
+
+/*logo.classList.toggle('min')
+search.classList.toggle('sidebar__search')
+search.classList.toggle('sidebar__search--mobile')
+busca.classList.toggle('min');
+spans[0].classList.toggle('min')
+spans[1].classList.toggle('min')
+spans[2].classList.toggle('min')
+spans[3].classList.toggle('min')
+spans[4].classList.toggle('min')
+foto.classList.toggle('min')
+nome.classList.toggle('min')
+*/
